@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 32px;
+    padding: 32px;
+
+    }
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 15px;
+    font: var(--text);
+}
+
+nav li:hover {
+    color: var(--brand-color);
+    text-decoration: dotted;
+}
+
+
