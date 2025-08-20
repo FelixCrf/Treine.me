@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --brand-color: #69B99D;
+    --backgroun-color: #ffffff;
+    --text-color-primary: #000000;
+    --text-color-secondary: #89C5CC;
+    --text-color-Tertiary:  #7D7987;
+    
+
+    --font-family: "Mulish", sans-serif;
+    --text-lg: bold 48px/150% var(--font-family);
+    --text: 18px/150% var(--font-family); 
+    --text-md: 16px/160% var(--font-family);
+    --text-md-bold: bold 16px/160% var(--font-family);
+    --text-sm: 14px/160% var(--font-family);
+
+
+}
