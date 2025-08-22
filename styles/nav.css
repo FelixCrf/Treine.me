@@ -17,7 +17,7 @@ nav ul {
 
 nav li:hover {
     color: var(--brand-color);
-    text-decoration: dotted;
+    
 }
 
 
