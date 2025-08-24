@@ -14,8 +14,10 @@
     
 
     --font-family: "Mulish", sans-serif;
-    --text-lg: bold 48px/150% var(--font-family);
-    --text: 18px/150% var(--font-family); 
+    --text-lg: 48px/150% var(--font-family);
+    --text-lg-bold: bold 48px/150% var(--font-family);
+    --text: 18px/150% var(--font-family);
+    --text-bold: bold 18px/150% var(--font-family); 
     --text-md: 16px/160% var(--font-family);
     --text-md-bold: bold 16px/160% var(--font-family);
     --text-sm: 14px/160% var(--font-family);
@@ -23,8 +25,14 @@
 
 }
 
+body {
+    background-color: var(--brand-color);
+    margin: 64px 120px 96px 120px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
 

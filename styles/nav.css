@@ -2,8 +2,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-inline: 32px;
-    padding: 32px;
+    padding-bottom: 21.4px;
+    /* margin: 64px 119px; */
+    object-fit: cover ;
+    background-color: #fff;
+    padding: 64px 120px 97px 120px;
 
     }
 
@@ -12,7 +15,7 @@ nav ul {
     list-style: none;
     justify-content: space-between;
     gap: 15px;
-    font: var(--text);
+    font: var(--text-bold);
 }
 
 nav li:hover {

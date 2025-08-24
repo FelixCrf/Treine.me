@@ -1,0 +1,52 @@
+
+main {
+    display: flex;
+    padding-top: 113px;
+    background-color: #fff;
+    padding: 64px 120px 97px 120px;
+    
+    
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    background-color: var(--brand-color);
+    padding: 14px 32px 15px 32px;
+    gap: 8px;
+    border: var(--brand-color);
+    border-radius: 12px;
+    color: #fff;
+    width: 169px;
+    height: 56px;
+    margin-top: 48px;
+    
+}
+
+
+button p {
+    font-family: var(--font-family);
+    font: var(--text-md-bold);
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h1 {
+    font: var(--text-lg);
+}
+
+h1 span {
+    color: var(--brand-color);
+}
+
+p {
+    font: var(--text-md);
+}
+
+p span {
+    font: var(--text-md-bold);
+}
